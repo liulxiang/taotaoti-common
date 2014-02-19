@@ -1,15 +1,18 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
  
   <modelVersion>4.0.0</modelVersion>
-	   <parent>
-	    <groupId>com.taotaoti</groupId>
-	    <artifactId>taotaoti-base</artifactId>
-	    <version>1.0.0.2</version>
-	  </parent>
+  <parent>
+     <groupId>com.taotaoti</groupId>
+     <artifactId>taotaoti-base</artifactId>
+     <relativePath>../taotaoti-base</relativePath>
+     <version>1.0.0.2</version>
+  </parent>
+  
       <groupId>com.taotaoti.common</groupId>
 	   <artifactId>taotaoti-common</artifactId>
 	   <version>1.0.0.2</version>
    <build>
+   
     <defaultGoal>package</defaultGoal>
     <outputDirectory>${basedir}/target/classes</outputDirectory>
     <resources>
@@ -30,5 +33,4 @@
     <plugins>
     </plugins>
   </build>
-   
 </project>
